@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsProject\bin\Debug\netcoreapp3.1\SportsProject.deps.json
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsProject\bin\Debug\netcoreapp3.1\SportsProject.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsProject\bin\Debug\netcoreapp3.1\SportsProject.pdb
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsProject\obj\Debug\netcoreapp3.1\SportsProject.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsProject\obj\Debug\netcoreapp3.1\SportsProject.AssemblyInfo.cs
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsProject\obj\Debug\netcoreapp3.1\SportsProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsProject\obj\Debug\netcoreapp3.1\SportsProject.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsProject\obj\Debug\netcoreapp3.1\SportsProject.pdb

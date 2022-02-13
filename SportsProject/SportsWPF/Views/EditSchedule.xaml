@@ -1,0 +1,32 @@
+﻿<Window x:Class="SportsWPF.Views.EditSchedule"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SportsWPF.Views"
+        mc:Ignorable="d"
+        Title="Hope you like crowded UI :)" Height="450" Width="800">
+    <Grid>
+        <Label Content="Edit Schedule" FontWeight="Bold" FontSize="18" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="35" Width="160"/>
+        <ComboBox HorizontalAlignment="Left" Margin="120,50,0,0" VerticalAlignment="Top" Width="122" DisplayMemberPath="Name" ItemsSource="{Binding SportsVM.CurrentSports}" SelectedItem="{Binding MatchVM.SelectedSport, Mode=TwoWay}" Height="24"/>
+        <Label Content="Choose Sport:" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Height="35" Width="110"/>
+        <Label Content="Team 1:" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Height="35" Width="69"/>
+        <ComboBox HorizontalAlignment="Left" Margin="120,85,0,0" VerticalAlignment="Top" Width="183" DisplayMemberPath="Name" ItemsSource="{Binding MatchVM.SelectedSport.Teams}" SelectedItem="{Binding MatchVM.Team1, Mode=TwoWay}" Height="24"/>
+        <Label Content="vs." FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="325,85,0,0" VerticalAlignment="Top" Height="35" Width="69"/>
+        <Label Content="Team 2:" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="384,85,0,0" VerticalAlignment="Top" Height="35" Width="69"/>
+        <ComboBox HorizontalAlignment="Left" Margin="490,85,0,0" VerticalAlignment="Top" Width="183" DisplayMemberPath="Name" ItemsSource="{Binding MatchVM.SelectedSport.Teams}" SelectedItem="{Binding MatchVM.Team2, Mode=TwoWay}" Height="24"/>
+        <Button Content="Set Sport" FontWeight="Bold"  HorizontalAlignment="Left" Command="{Binding MatchVM.SetSport}" VerticalAlignment="Top" Width="78" Margin="266,50,0,0" Height="24"/>
+        <Label Content="Team 1 Score:" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" Height="35" Width="110"/>
+        <Label Content="Team 2 Score:" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="10,188,0,0" VerticalAlignment="Top" Height="35" Width="110"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding MatchVM.Score1}" VerticalAlignment="Top" Width="120" Margin="125,148,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding MatchVM.Score2}" VerticalAlignment="Top" Width="120" Margin="125,188,0,0"/>
+        <Button Content="Set Teams" FontWeight="Bold"  HorizontalAlignment="Left" Command="{Binding MatchVM.SetTeams}" VerticalAlignment="Top" Width="87" Margin="10,236,0,0" Height="24"/>
+        <Label Content="{Binding MatchVM.Results}" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top" Height="114" Width="726"/>
+        <Label Content="&lt;- Set Sport before you can see teams" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="344,47,0,0" VerticalAlignment="Top" Height="35" Width="279"/>
+        <DatePicker HorizontalAlignment="Left" Margin="297,187,0,0" VerticalAlignment="Top" SelectedDate="{Binding MatchVM.MatchTime, Mode=TwoWay}"/>
+        <Label Content="Choose Time:" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="293,159,0,0" VerticalAlignment="Top" Height="35" Width="110"/>
+        <Button Content="Schedule" FontWeight="Bold"  HorizontalAlignment="Left" Command="{Binding MatchVM.SetTime}" VerticalAlignment="Top" Width="78" Margin="423,187,0,0" Height="24"/>
+        <Button Content="Start Match" FontWeight="Bold"  HorizontalAlignment="Left" Command="{Binding MatchVM.StartMatch}" VerticalAlignment="Top" Width="87" Margin="120,236,0,0" Height="24"/>
+
+    </Grid>
+</Window>

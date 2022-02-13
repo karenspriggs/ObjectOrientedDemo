@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\b\SportsUnitTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\b\SportsUnitTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\b\SportsUnitTests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\b\SportsUnitTests2\bin\Debug\SportsUnitTests2.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\i\SportsUnitTests2\Debug\SportsUnitTests2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\i\SportsUnitTests2\Debug\SportsUnitTests2.csproj.CopyComplete
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\i\SportsUnitTests2\Debug\SportsUnitTests2.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\i\SportsUnitTests2\Debug\SportsUnitTests2.csprojAssemblyReference.cache

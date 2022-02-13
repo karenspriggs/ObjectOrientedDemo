@@ -1,0 +1,4 @@
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\b\SportsLibrary\bin\Debug\SportsLibrary.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\i\SportsLibrary\Debug\SportsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\i\SportsLibrary\Debug\SportsLibrary.csproj.CopyComplete
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\.vs\SportsProject\v16\lut\0\i\SportsLibrary\Debug\SportsLibrary.dll

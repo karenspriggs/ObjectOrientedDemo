@@ -1,0 +1,26 @@
+﻿<Window x:Class="SportsWPF.Views.EditPlayer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SportsWPF.Views"
+        mc:Ignorable="d"
+        Title="Hope you like crowded UI :)" Height="450" Width="800">
+    <Grid>
+        <Label Content="{Binding TeamVM.SelectedPlayer.Name}" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="302" FontSize="20" Margin="11,10,0,0"/>
+        <Label Content="Name:" HorizontalAlignment="Left" FontWeight="Bold" VerticalAlignment="Top" Margin="11,63,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="11,89,0,0" TextWrapping="Wrap" Text="{Binding TeamVM.SelectedPlayer.Name, Mode=TwoWay}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ID:" HorizontalAlignment="Left" FontWeight="Bold"  VerticalAlignment="Top" Margin="11,124,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="11,150,0,0" TextWrapping="Wrap" Text="{Binding TeamVM.SelectedPlayer.ID, Mode=TwoWay}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="{Binding TeamVM.SelectedPlayer.Details}" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,178,0,0" Height="29" Width="310"/>
+        <Label Content="Stats:" HorizontalAlignment="Left" FontWeight="Bold"  VerticalAlignment="Top" Margin="11,212,0,0"/>
+        <Label Content="Wins:" HorizontalAlignment="Left" FontWeight="Bold" VerticalAlignment="Top" Margin="11,244,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="11,270,0,0" TextWrapping="Wrap" Text="{Binding TeamVM.SelectedPlayer.PlayerStats.Wins, Mode=TwoWay}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Losses:" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,309,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="11,335,0,0" TextWrapping="Wrap" Text="{Binding TeamVM.SelectedPlayer.PlayerStats.Losses, Mode=TwoWay}" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Update" Command="{Binding TeamVM.UpdatePlayer}" HorizontalAlignment="Left" FontWeight="Bold"  Margin="193,335,0,0" VerticalAlignment="Top" Width="94" Height="23"/>
+        <Label Content="Rating:" HorizontalAlignment="Left" FontWeight="Bold" VerticalAlignment="Top" Margin="186,244,0,0"/>
+        <Label Content="{Binding TeamVM.SelectedPlayer.PlayerStats.Rating}" FontWeight="Bold"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="193,270,0,0" Height="23" Width="94"/>
+
+    </Grid>
+</Window>

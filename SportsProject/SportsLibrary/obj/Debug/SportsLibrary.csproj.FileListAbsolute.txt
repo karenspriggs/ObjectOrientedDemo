@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsLibrary\obj\Debug\SportsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsLibrary\bin\Debug\SportsLibrary.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsLibrary\bin\Debug\SportsLibrary.pdb
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsLibrary\obj\Debug\SportsLibrary.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsLibrary\obj\Debug\SportsLibrary.pdb
+C:\Users\Admin\Documents\Schoolwork\PROG301\SportsProject\SportsLibrary\obj\Debug\SportsLibrary.csprojAssemblyReference.cache

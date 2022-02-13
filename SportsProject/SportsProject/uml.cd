@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SportsProject.Teams.Team">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAAAggAkAAJAIAAQgAABEAAAAAAgAAAEAgAA=</HashCode>
+      <FileName>Teams\Team.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportsProject.Players.Player">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAEAABgQAAAQAAAAQAAAAEAAAABAAAAAAAAgA=</HashCode>
+      <FileName>Players\Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportsProject.Matches.Match">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAAAAIAYACAACAAgAACgAAAAoAAAACAAAAQBA=</HashCode>
+      <FileName>Matches\Match.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportsProject.Sports.Sport">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAgAAAAIAAAAAQAAAAEABAAAAAAAAAAEAA=</HashCode>
+      <FileName>Sports\Sport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportsProject.Stats.Stats">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAQAAAAEgAAAAIAAAAAA=</HashCode>
+      <FileName>Stats\Stats.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportsProject.Players.PlayerMOBA">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAgAAAAIAAAAAAAAAAAAAAABAAAAAQ=</HashCode>
+      <FileName>Players\PlayerMOBA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportsProject.Players.PlayerFPS">
+    <Position X="6" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAEAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Players\PlayerFPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportsProject.Sports.SportFPS">
+    <Position X="13.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\SportFPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportsProject.Sports.SportMOBA">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\SportMOBA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportsProject.Sports.League">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\League.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportsProject.Sports.Overwatch">
+    <Position X="12" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\Overwatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportsProject.Sports.CSGO">
+    <Position X="14.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\CSGO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SportsProject.Matches.IMatch">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAIAQACAACAAAAACgAAAAAAAAACAAAAQBA=</HashCode>
+      <FileName>Matches\IMatch.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SportsProject.Players.IPlayer">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAABgQAAAAAAAAQAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Players\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SportsProject.Sports.ISport">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAgAAAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\ISport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SportsProject.Stats.IStats">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAA=</HashCode>
+      <FileName>Stats\IStats.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SportsProject.Teams.ITeam">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAAAggAkAABAAAAQgAABAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Teams\ITeam.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

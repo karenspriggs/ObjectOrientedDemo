@@ -1,0 +1,35 @@
+﻿<Window x:Class="WPFSports.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SportsWPF"
+        mc:Ignorable="d"
+        Title="Hope you like crowded UI :)" Height="450" Width="800">
+    <Grid Margin="3,0,-3,0">
+        <Label x:Name="Title" Content="Esports Application" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Width="250" FontWeight="Bold" FontSize="20" Margin="10,0,0,0"/>
+        <Label Content="List of Sports" HorizontalAlignment="Left" Margin="17,42,0,0" VerticalAlignment="Top" Width="179" FontWeight="Bold" FontSize="16"/>
+        <ListBox HorizontalAlignment="Left" Height="321" Margin="17,73,0,0" VerticalAlignment="Top" Width="243" ItemsSource="{Binding SportsVM.CurrentSports}" DisplayMemberPath="Name"/>
+
+        <TextBox x:Name="SportNameBox" HorizontalAlignment="Left" Height="24" Margin="280,93,0,0" TextWrapping="Wrap" Text="{Binding SportsVM.NewSportName, Mode=TwoWay}" VerticalAlignment="Top" Width="105"/>
+        <TextBox x:Name="SportSizeBox" HorizontalAlignment="Left" Height="23" Margin="280,141,0,0" TextWrapping="Wrap" Text="{Binding SportsVM.NewSportSize, Mode=TwoWay}" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="MakeSportFPSButton" Content="Add FPS Sport" HorizontalAlignment="Left" Margin="279,211,0,0" VerticalAlignment="Top" Command="{Binding SportsVM.AddFPS}" Width="106" Height="32" FontWeight="Bold"/>
+        <Button x:Name="MakeSportMOBAButton" Content="Add MOBA Sport" HorizontalAlignment="Left" Margin="279,174,0,0" VerticalAlignment="Top" Command="{Binding SportsVM.AddMOBA}"  Width="106" Height="32" FontWeight="Bold"/>
+        <Label Content="Pages" HorizontalAlignment="Left" Margin="394,45,0,0" VerticalAlignment="Top" Width="55" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="ScheduleButton" Content="Schedule" HorizontalAlignment="Left" Margin="410,85,0,0" VerticalAlignment="Top" Width="100" FontSize="14" FontWeight="Bold" Height="34" Click="ScheduleButton_Click"/>
+
+
+
+        <Button x:Name="EditTeamsButton" Content="Edit Teams" HorizontalAlignment="Left" Margin="410,130,0,0" VerticalAlignment="Top" Width="100" FontSize="14" FontWeight="Bold" Height="34" Click="EditTeamsButton_Click"/>
+        <Button x:Name="SaveSportButton" Content="Save Sports" Command="{Binding SportsVM.SaveSports}" HorizontalAlignment="Left" Margin="410,362,0,0" VerticalAlignment="Top" Width="106" Height="32" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="LoadSportsButton" Content="Load Sports" Command="{Binding SportsVM.LoadSports}" HorizontalAlignment="Left" Margin="533,362,0,0" VerticalAlignment="Top" Width="106" Height="32" FontWeight="Bold" FontSize="14"/>
+
+        <Label Content="Sport Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="273,67,0,0" FontWeight="Bold"/>
+        <Label Content="Sport Team Size:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="273,115,0,0" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" Margin="280,274,0,0" VerticalAlignment="Top" Width="106" DisplayMemberPath="Name" ItemsSource="{Binding SportsVM.CurrentSports}" SelectedItem="{Binding SportsVM.RemovedSport, Mode=TwoWay}" Height="24"/>
+        <Button x:Name="RemoveSportButton" Content="Remove Sport" HorizontalAlignment="Left" Margin="280,303,0,0" VerticalAlignment="Top" Command="{Binding SportsVM.RemoveSport}" Width="106" Height="32" FontWeight="Bold"/>
+
+
+
+    </Grid>
+</Window>
