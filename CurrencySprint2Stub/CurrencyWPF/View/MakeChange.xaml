@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="CurrencyWPF.View.MakeChange"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CurrencyWPF.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             DataContext="ViewModel">
+    <Grid>
+        <Label Content="Total:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="91" FontWeight="Bold" FontSize="20" Margin="37,28,0,0"/>
+        <TextBlock x:Name="TotalBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding CurrencyRepo.TotalValue}" VerticalAlignment="Top" Margin="128,28,0,0" Height="44" Width="175" FontSize="20"/>
+        <Button x:Name="LoadButton" Content="Load" Command ="{Binding loadRepo}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="30,380,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="SaveButton" Content="Save" Command ="{Binding saveRepo}"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="250,380,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="NewButton" Content="New" Command ="{Binding newRepo}"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="660,380,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="AddPenny" Content="Penny" Command ="{Binding CurrencyRepo.AddPenny}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="30,187,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="AddNickel" Content="Nickel" Command ="{Binding CurrencyRepo.AddNickel}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="156,187,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="AddDime" Content="Dime" Command ="{Binding CurrencyRepo.AddDime}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="282,187,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="AddQuarter" Content="Quarter" Command ="{Binding CurrencyRepo.AddQuarter}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="408,187,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="AddHalfDollar" Content="Half Dollar" Command ="{Binding CurrencyRepo.AddHalfDollar}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="534,187,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="AddDollar" Content="Dollar" Command ="{Binding CurrencyRepo.AddDollar}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="121" Margin="660,187,0,0" Height="42" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Add Coins Here:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,125,0,0" Height="42" Width="264" FontSize="20" FontWeight="Bold"/>
+
+    </Grid>
+</UserControl>

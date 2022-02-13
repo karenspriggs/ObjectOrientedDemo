@@ -1,0 +1,13 @@
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\Currency\bin\Debug\Currency.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\Currency\bin\Debug\Currency.pdb
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.csproj.CopyComplete
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.pdb
+D:\Schoolwork Archive\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\Currency\bin\Debug\Currency.dll
+D:\Schoolwork Archive\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\Currency\bin\Debug\Currency.pdb
+D:\Schoolwork Archive\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.csprojAssemblyReference.cache
+D:\Schoolwork Archive\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.csproj.CoreCompileInputs.cache
+D:\Schoolwork Archive\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.csproj.CopyComplete
+D:\Schoolwork Archive\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.dll
+D:\Schoolwork Archive\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\Currency\Debug\Currency.pdb

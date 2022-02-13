@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\Currency\bin\Release\Currency.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\Currency\bin\Release\Currency.pdb
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\Currency\obj\Release\Currency.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\Currency\obj\Release\Currency.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\Currency\obj\Release\Currency.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\Currency\obj\Release\Currency.pdb

@@ -1,0 +1,9 @@
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\UnitTestsCurrency\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\UnitTestsCurrency\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\UnitTestsCurrency\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\UnitTestsCurrency\bin\Debug\UnitTestsCurrency.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\b\UnitTestsCurrency\bin\Debug\UnitTestsCurrency.pdb
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\UnitTestsCurrency\Debug\UnitTestsCurrency.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\UnitTestsCurrency\Debug\UnitTestsCurrency.csproj.CopyComplete
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\UnitTestsCurrency\Debug\UnitTestsCurrency.dll
+C:\Users\Admin\Documents\Schoolwork\PROG301\CurrencySprint2Stub\CurrencySprint2Stub\.vs\Currency\v16\lut\0\i\UnitTestsCurrency\Debug\UnitTestsCurrency.pdb
